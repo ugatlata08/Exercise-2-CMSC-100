@@ -11,7 +11,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: scroll; /* ←this makes the background move */
+    background-attachment: scroll;
 
     min-height: 100vh; /*src:https://www.sitepoint.com/css-viewport-units-quick-start/*/
 }
@@ -22,11 +22,11 @@ body {
     gap: 10px;
 }
 
-/*logo andd navigation bar section */
+/*logo and navigation bar section */
 .logo_name {
     display: flex;
     align-items: center;
-    gap: 8px; /* small space between logo and Eya */
+    gap: 8px;
     margin: 0;
     padding: 0;
 }
@@ -38,8 +38,8 @@ body {
 }
 
 .nav_bar img {
-    height: 50px; /* fixed size that matches your text size */
-    width: auto; /* keep proportions */
+    height: 50px;
+    width: auto;
     margin: 0;
     padding: 0;
 }
@@ -52,8 +52,8 @@ body {
     border: 2px solid black;
     background-color: black;
 
-    padding: 10px; /*the space betweeen items and border*/
-    gap: 30px; /* space between items */
+    padding: 10px;
+    gap: 30px;
 }
 
 .nav_bar h3 {
@@ -66,7 +66,7 @@ body {
     color: white;
     font-size: 18px;
     margin: 0;
-    text-decoration: none; /*to remove underline on linked texts*/
+    text-decoration: none;
     cursor: pointer;
     position: sticky;
 }
@@ -99,7 +99,7 @@ body {
 .bio_text {
     flex: 1;
     color: white;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.7); /* makes white text readable */
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
     padding: 0;
     margin: 0;
 }
@@ -114,7 +114,7 @@ body {
 }
 
 .bio_text p {
-    font-size: 20px; /* readable paragraph */
+    font-size: 20px;
     line-height: 1.5;
     text-align: justify;
     margin-top: 7px;
@@ -238,7 +238,7 @@ body {
     opacity: 1;
 }
 
-/* Skills section */
+/* skills section */
 .skills-section {
     padding: 40px;
     max-width: 1200px;
@@ -294,11 +294,7 @@ body {
     text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
-.skill-category li:before {
-    content: none;
-}
-
-/* Footer section */
+/* footer section */
 .footer {
     background: linear-gradient(
         135deg,
