@@ -1,10 +1,10 @@
 # Personal Portfolio Website
 
-**Full Name:** Eya  
+**Full Name:** Sophia Ruth T. Diolata  
 **Degree Program:** BS Computer Science  
 
 ## Live Website
-https://<your-github-username>.github.io/<repository-name>/
+[https://ugatlata08.github.io/Exercise-2-CMSC-100/](https://ugatlata08.github.io/Exercise-2-CMSC-100/)
 
 ## Steps on How to Create a GitHub Page
 1. Used the repository provided by GitHub Classroom.
@@ -16,6 +16,6 @@ https://<your-github-username>.github.io/<repository-name>/
 
 ## Key Takeaways
 - Learned proper HTML structure
-- Applied basic CSS styling
+- Applied basic CSS styling with inheritance
 - Used Flexbox for layout
 - Deployed a static website using GitHub Pages
